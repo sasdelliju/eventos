@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "ovly.controles.eventos.eventos",
+        "description": "Eventos",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#eventos-Display",
+        "navigationComponentName": "ovly.controles.eventos",
+        "intentSemanticObject": "eventos",
+        "intentAction": "Display",
+        "html5ApplicationName": "eventos",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "9fde668a-3999-449a-9948-a640bafeee13"
+        ],
+        "contentPackages": [
+            "88deb303-a2e2-4395-bd87-c65c0c67ee9a"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Eventos",
+        "subtitle": "Estudo de Eventos",
+        "searchKeywords": "Eventos,Estudo de Eventos",
+        "displayIconUrl": "sap-icon://begin",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

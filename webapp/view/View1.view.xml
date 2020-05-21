@@ -1,0 +1,22 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:ndc="sap.ndc" controllerName="ovly.controles.eventos.controller.View1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}" showNavButton="true" navButtonPress="onBack">
+					<content>
+						<FlexBox direction="Column">
+							<items>
+								<Button text="Exibir Toast" press="onPressToast"/>
+								<Button text="Exibir Sucesso" press="onPressSucesso"/>
+								<RatingIndicator change="onChangeRating"/>
+								<RatingIndicator change=".onChangeRating"/>
+								
+								<ndc:BarcodeScannerButton scanSuccess="onScanSucess"/>
+							</items>
+						</FlexBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
